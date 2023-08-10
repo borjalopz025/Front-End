@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.principal{
+    background: rgba(0, 0, 255, 0.986);
+    width: 100%;
+    height: 50rem;
+    /* background-image: url(assets/foto22.jpg) 
+    wi;
+     */
+}
+.link{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   border: 5px solid black;
+   background-color: black;
+   color: white;
+}
+.logo{
+  width: 5%;
+  height: 5%;
+}
+ .container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-right: 20%;
+  padding: 5%;
+  height: 50vh;
+
+ }
+ .imagentransparente{
+  opacity: 1;
+  width: 50%;
+  height: 45rem ;
+ }
+ p{
+  font-size: 34px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 50%;
+ }
+ .col{
+  color: rgb(47, 255, 57);
+  font-size: 44px;
+  margin-right: 50%;
+ }
+ /* .d{
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-around;
+ } */
+
+ .redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+  background-color: black;
+  border: 10px solid black;
+  
+ }
+ a{
+  text-decoration: none;
+  color: white;
+ }
+ .h3{
+  font-size: 34px;
+ }
+ .principal{
+  background-image: url(assets/fondo7.jpg);
+  width: 100%;
+  height:32rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: .5; */
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+  }
+  
+  
+ 
+
+ 

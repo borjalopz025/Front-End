@@ -1,0 +1,70 @@
+.padre{
+    border:2px solid grey;
+    height: 95vh;
+}
+   .padre__hijo{
+    width: 100%;
+    height: 25%;
+    border: 2px solid green;
+   }
+     .padre__hijo1{
+        width: 100%;
+        height: 15%;
+        border: 2px solid violet;
+     }
+
+.padre2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+  .padre2__hijo{
+    width: 60%;
+    height: 40vh;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  } 
+    .hijo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 99%;
+        height: 5vh;
+        border: 2px solid green;
+    }
+    .hijoinvisible{
+        width: 99%;
+        height: 18vh;
+    }
+      .hijo1{
+        width: 99%;
+        height: 5vh;
+        border: 2px solid violet;
+      }
+        .hijo2{
+            width: 99%;
+            height: 5vh;
+            border: 2px solid yellow;
+        }
+
+.padre2__hijo2{
+    width: 40%;
+    height: 40vh;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+
+} .hijo_2{
+    width: 99%;
+    height: 20vh;
+    border: 2px solid rgb(100, 228, 237);
+}
+  .padre__hijo4{
+    width: 100%;
+    height: 15vh;
+    border: 2px solid yellow;
+  }
+  

@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.green{
+    
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 2%;
+    
+}
+.red{
+    width: 60%;
+}
+
+main{
+    width: 100%;
+    height: 544px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+
+    
+}
+main aside, main div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+ aside div img{
+    width: 100%;
+    height: 100%;
+}
+ aside{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+.grey{
+    border:2px solid rgb(207, 205, 205);
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.abajo{
+    width: 100%;
+    height: 20%;
+}
+.insta{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+h1{
+    font-family: cursive; 
+    text-align: center;
+}
+.input{
+  
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 3%;
+   
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 20%; */
+    
+}
+input::placeholder{
+    font-size: xx-small;   
+}
+input{
+    width: 75%;
+    padding-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+hr{
+    padding-top: 2%;
+    margin-right: 5%;
+}
+.pas{
+    padding-top: 4%;
+}
+button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    padding-top: 3%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: rgb(98, 168, 235);
+}
+.buton{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 2%;
+    color: white;
+}
+.face{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+.despitado{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.peque{
+    font-size: small;
+}
+.azul{
+    color: blue;
+}
+.logo{
+    width: 15px;
+    height: 15px;
+}
+.d{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.tamaño{
+    width: 150px;
+    height: 50px;
+}
+.grey2{
+    border:1px solid rgb(196, 191, 191);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.g{
+    color: rgb(11, 125, 233);
+}
+.abajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tercero3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 10%;
+    margin-left: 4%;
+    padding-right: 10%;
+    padding-top: 5%;
+   
+}
+
+.palabras{
+    color:grey;
+    font-size: small;
+}
+.barra{
+    width: 80%;
+    height: 1px;
+    background-color: grey;
+    margin-left: 10%;
+}
+@media screen and (max-width:876px){
+   .red{
+    display: none;
+   }
+   .green{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 2%;
+   }
+}
+@media screen and (max-width:451px) {
+    .grey{
+       border: none;
+
+    }
+    .grey2{
+       border: none;
+  
+    }
+    .tamaño{
+        width: 120px;
+        height: 50px;
+    }
+}

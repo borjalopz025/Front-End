@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+  }  
+
+
+.link{
+    border: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    
+  }
+  h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+  }
+.programacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img{
+    height: 40%;
+    width: 30%;
+    margin-right: 5%;
+}
+.fot{
+    height: 50%;
+    width: 60%;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+.separador{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 2%;
+
+}
+
+.foto{
+    height: 40%;
+    width: 500%;
+}
+.programacion1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding:2%;
+}
+.separador2{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 2%;
+}
+.padre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+}
+.img2{
+    height: 40%;
+    width: 60%;
+}
+.img3{
+    height: 40%;
+    width: 60%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border: 5px solid black;
+  }
+  .h3{
+    font-size: 34px;
+   }
+   .data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(2, 2, 7);
+    font-size: 34px;
+   }
+   .enunciados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+   

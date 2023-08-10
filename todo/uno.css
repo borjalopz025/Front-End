@@ -1,0 +1,27 @@
+
+.link{
+    background-color: black;
+    color: white ;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.papa{
+    border:2px solid rgb(230, 41, 41);
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.padre{
+   margin: 40px;
+}
+
+.foto{
+    margin-right: 40px;
+}
+

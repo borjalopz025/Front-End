@@ -1,0 +1,21 @@
+.link{
+    background-color: black;
+    color: white ;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.superpadre{
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+
+
+
+
+ 

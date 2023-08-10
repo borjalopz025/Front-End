@@ -1,0 +1,132 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+ header{
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    
+  }
+a:active{
+    color: blue;
+}
+body{
+     background-image: url(asset/fondoespacioastronauta.webp);
+    background-size: cover;
+    background-position: center top; 
+    background-repeat: no-repeat;
+
+} 
+
+button{
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+p{
+    color: beige;
+    font-size: small;
+    margin-top: 2%;
+}
+
+
+
+
+
+#cajon{
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+   
+}
+
+
+#peliFav{
+    padding-top: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+    background-color:black;
+    border-radius: 10%;
+    margin-right: 50%;
+
+}
+
+label{
+    padding-top: 7%;
+}
+
+input{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(216, 213, 213);
+    color: black;
+    border: 2px solid grey;
+}
+
+#btn7{
+    text-align: center;
+    margin-top: 10%;
+   margin-bottom: 5%;
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+      
+#btn7 {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 40%;
+    align-items: center;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h1{
+    color: beige;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+
+#fot{
+    width: 20%;
+}
+
+/* responsive */
+

@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #0c0505;
+  border: 1px solid #0e0303;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.link{
+    border: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+  }
+  .color
+  {
+    background-color: rgb(25, 0, 255);
+    width: 100%;
+   height: 57rem;
+  }
+  h1
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 39px;
+	  
+    
+  }
+  .centar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+
+  }
+  label {
+    
+    font-weight: bold;
+  }
+  .superpadre
+  {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    padding: 5%;
+    
+  }
+
+  input{
+  width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #070306; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 3%; 
+
+  }
+  button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	background-color:  rgb(1, 1, 7);
+	border-color: rgb(5, 4, 15);
+  border-radius: 5px;
+  border: none;
+	
+}
+.boton{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin-left: 33%;
+  margin-right: 33%;
+  
+}
+
+
+button p{
+	color: rgb(255, 255, 255); 
+}
+
+
+span{
+	color: white;
+}
+
+.nombre{
+    color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border: 5px solid black;
+}
+
+.h3{
+  font-size: 34px;
+ }

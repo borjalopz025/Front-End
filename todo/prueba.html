@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prueba.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+        <header class="cabecero">
+            viajes Expres
+
+        </header>
+    <main class="papi">
+        <div class="tex">
+            <p>Viaja donde quieras y como quieras </p>
+        </div>
+
+        <div class="imagenes">
+            <div class="img">
+                <img src="assets/ibiza.webp" alt="">
+                <P>CANARIAS</P>
+                <p class="espacio">vuelos desde malaga 8 dias/ 7 noches salida el 20 de agosto</p>
+            </div>
+            <div class="img">
+                <img src="assets/mallorca.webp" alt="">
+                <P>MALLORCA</P>
+                <p class="espacio">vuelos desde malaga 8 dias/ 7 noches salida el 20 de agosto</p>
+            </div>
+            <div class="img">
+               <img src="assets/roma.webp" alt="">
+               <p>GALICIA</p>
+               <p class="espacio">vuelos desde malaga 8 dias/ 7 noches salida el 20 de agosto</p>
+            </div>
+        </div>
+    
+        <div class="tex">
+            <p>RESERVA YA! A QUE ESPERAS!!</p>
+        </div>
+   
+    <form id="informacion">
+        <div class="contacto">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" autocomplete="on" required>
+        
+            <label for="name">origen:</label>
+            <input type="text" id="origen" name="origen" autocomplete="on" required>
+    
+            <label for="name">destino:</label>
+            <input type="text" id="destino" name="destino" autocomplete="on" required>
+
+            <label for="name">numero de personas:</label>
+            <input type="number" id="numero_de_perosnas" name="numero_de_personas" autocomplete="on" required>
+
+            <label for="name">fecha de salida:</label>
+            <input type="number" id="fecha_inicio" name="fecha_inicio" autocomplete="on" required>
+                
+            <label for="name">fecha de llegada:</label>
+            <input type="number" id="fecha_de_llegada" name="fecha_de_llegada" autocomplete="on" required>
+        </div>
+        <div class="botones">
+            <button class="pi" type ="button" onclick="getName()">solicitar informacion</button>
+            <p id="imprimir"></p>
+           <button class="pi" type="button" onclick="filtrar()">filtrar</button>
+           <p id="filtrar"></p>
+       </div>
+    
+    </form>
+    <div id="filtrar">
+    </div>
+        
+    
+</main>
+   
+    <footer>
+        <div>Viajes Express</div>
+    </footer>
+    <script src="./prueba.js"></script>
+</body>
+</html>
