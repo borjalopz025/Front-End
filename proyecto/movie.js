@@ -31,13 +31,13 @@ class Movie
     mostrarAtribu()
     {
         
-        return `Titulo:  ${this.title},
-                Año:  ${this.releaseYear},
-                Nacionalidad:  ${this.nacionality},
-                Genero:  ${this.genre},
-                Actores:  ${this.actors}
-                photo  -  ${this.photo}
-               `
+        return  `Titulo:  ${this.title},
+            Año:  ${this.releaseYear},
+            Nacionalidad:  ${this.nacionality},
+            Genero:  ${this.genre},
+            Actores:  ${this.actors}
+            photo  -  ${this.photo}
+           `
     }
 
 }
@@ -109,8 +109,6 @@ let infoPeli = [];
 let clicarBoton = document.getElementById("btn7")
 
 clicarBoton.addEventListener("click",() =>{
-    
-   
 
     let titulo = document.getElementById("titulo").value
     let año = document.getElementById("año").value
@@ -120,12 +118,12 @@ clicarBoton.addEventListener("click",() =>{
     let url = document.getElementById("url").value
 
     let peliNueva = {
-        titu:titulo,
-        a: año,
-        nac: nacionalidad,
-        ge: genero,
-        ac:actores,
-        ur:url
+        titulo:titulo,
+        año: año,
+        nacionalidad: nacionalidad,
+        genero: genero,
+        actor:actores,
+        url:url
     }
     
     infoPeli.push(peliNueva)
@@ -135,12 +133,12 @@ clicarBoton.addEventListener("click",() =>{
     for(let p of infoPeli){
        
         newP+= `
-        <img id="foto" src="${p.ur}" class="card-img-top" alt="...">
-                <h1>${p.titu}</h1>
-                <p >${p.a}</p>
-                <p>${p.nac}</p>
-                <p>${p.ge}</p>
-                <p>${p.ac}</p>
+        <img id="foto" src="${p.url}" class="card-img-top" alt="...">
+                <h1>${p.titulo}</h1>
+                <p >${p.año}</p>
+                <p>${p.nacionalidad}</p>
+                <p>${p.genero}</p>
+                <p>${p.actor}</p>
         `
         
     };
